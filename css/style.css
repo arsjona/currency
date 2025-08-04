@@ -1,0 +1,39 @@
+  #flip{
+    width: 150px;
+    height: 150px;
+    transform-style: preserve-3d;
+    transform: rotateY(0deg);
+    transition:transform 2s;
+  }
+    #flip:hover{
+        transform: rotateY(180deg);
+    }
+  body {
+    background-color:black;
+}
+.first{
+    font-size :50px;
+    font-family:cursive;
+    color:lightgreen;
+    font-weight:bold;
+    text-shadow:3px 2px 4px white;
+}
+.form-label{
+    font-size:20px;
+    font-family:Times New Roman;
+    font-weight:bold;
+    color:yellow;
+}
+
+.buton{
+               -webkit-border-radius: 20px;
+                background-color: lightgreen;
+                border-radius: 20px;
+                border: 1px solid lightgreen;
+                width:100px;
+                padding:25px;
+                color: black;
+                font-family: georgian;
+                font-weight:bold;
+                margin:auto;
+}
